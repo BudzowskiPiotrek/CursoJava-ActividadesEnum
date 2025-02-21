@@ -19,3 +19,14 @@ atributos nombre, id, departamento, y genero. Usa enums para Departamento (con
 valores como TI, VENTAS, MARKETING) y Genero (con valores MASCULINO,
 FEMENINO). La clase Empleado debe tener métodos para imprimir la información
 del empleado y para cambiar su departamento.
+
+Ejercicio 4
+
+• Modeliza un sistema de gestión de proyectos. Crea una clase Proyecto con
+atributos nombre, estado, y prioridad. Usa enums para EstadoProyecto (con
+valores como NO_INICIADO, EN_PROGRESO, COMPLETADO) y Prioridad
+(con valores BAJA, MEDIA, ALTA). La clase Proyecto debe tener métodos para
+avanzar el estado del proyecto y para imprimir la información del proyecto.
+Además, crea una clase Empresa que pueda contener múltiples proyectos y
+métodos para agregar proyectos, listar proyectos y filtrar proyectos por estado o
+prioridad.
