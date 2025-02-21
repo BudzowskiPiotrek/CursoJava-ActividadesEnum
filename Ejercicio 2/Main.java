@@ -6,8 +6,8 @@ public class Main {
 		Orden o1 = new Orden();
 		o1.imprimirEstado();
 
-		// LO PASAMOS POR LAS TRES FASES
-		for (int i = 0; i < 5; i++) {
+		// LO PASAMOS POR LAS TRES FASES ( PERO HACEMOS 4 VUELTAS PARA VER SI FUNCIONA EL FRENO )
+		for (int i = 0; i < 4; i++) {
 			boolean estado = o1.avanzarEstado();
 			if (estado) {
 				o1.imprimirEstado();
