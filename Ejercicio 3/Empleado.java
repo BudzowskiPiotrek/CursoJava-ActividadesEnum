@@ -12,8 +12,6 @@ public class Empleado {
 		this.genero = genero;
 	}
 
-	// METODO PARA IMPRIMIR VARIANTES DE CLASE EMPLEADO
-
 	public String getNombre() {
 		return nombre;
 	}
@@ -46,6 +44,8 @@ public class Empleado {
 		this.genero = genero;
 	}
 
+	// METODO PARA IMPRIMIR VARIANTES DE CLASE EMPLEADO
+	
 	public void imprimirInformacion() {
 		System.out.println("\nNombre: " + nombre);
 		System.out.println("ID: " + id);
