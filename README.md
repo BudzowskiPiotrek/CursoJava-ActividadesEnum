@@ -1,6 +1,4 @@
 # CursoJava-ActividadesEnum
-Ejercicios básicos para practicar con Enum
-
 Ejercicio 1
 
 • Modeliza un semáforo utilizando una clase Semaforo con un enum ColorSemaforo
